@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "Please cite this software version and the original datasets when using BiFAN."
+title: "BiFAN: additive fusion of protein language representations and physicochemical descriptors for antimicrobial peptide prediction"
+abstract: >-
+  BiFAN combines fine-tuned ESM-2 representations with 559 composition and
+  physicochemical descriptors through additive fusion for binary AMP prediction.
+  This version includes training and prediction code, baseline implementations,
+  fixed data splits, and reported aggregate results.
+type: software
+version: "1.0.0"
+license: MIT
+authors:
+  - family-names: Yu
+    given-names: Linhua
+  - family-names: You
+    given-names: Xianwen
+  - family-names: Shen
+    given-names: Jie
+keywords:
+  - antimicrobial peptides
+  - protein language models
+  - ESM-2
+  - physicochemical descriptors
+  - additive fusion
+  - bioinformatics

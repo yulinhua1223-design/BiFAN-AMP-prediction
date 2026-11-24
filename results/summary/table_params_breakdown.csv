@@ -1,0 +1,17 @@
+configuration,module,parameters,share,note
+Additive (deployed),"ESM-2 backbone (esm2_t33_650M_UR50D, fine-tuned)","651,040,661",99.926%,sequence branch
+Additive (deployed),attention pooling,"1,281",0.000%,sequence branch
+Additive (deployed),sequence projection,"328,448",0.050%,sequence branch
+Additive (deployed),handcrafted encoder,"18,048",0.003%,descriptor branch
+Additive (deployed),fusion,"66,304",0.010%,fusion
+Additive (deployed),classifier,"66,818",0.010%,classification head
+Additive (deployed),total,"651,521,560",100.000%,all modules
+"Additive + auxiliary loss, lambda = 0.3 (deployed)","ESM-2 backbone (esm2_t33_650M_UR50D, fine-tuned)","651,040,661",99.916%,sequence branch
+"Additive + auxiliary loss, lambda = 0.3 (deployed)",attention pooling,"1,281",0.000%,sequence branch
+"Additive + auxiliary loss, lambda = 0.3 (deployed)",sequence projection,"328,448",0.050%,sequence branch
+"Additive + auxiliary loss, lambda = 0.3 (deployed)",handcrafted encoder,"18,048",0.003%,descriptor branch
+"Additive + auxiliary loss, lambda = 0.3 (deployed)",fusion,"66,304",0.010%,fusion
+"Additive + auxiliary loss, lambda = 0.3 (deployed)",classifier,"66,818",0.010%,classification head
+"Additive + auxiliary loss, lambda = 0.3 (deployed)",handcrafted auxiliary head,"66,818",0.010%,descriptor branch (training only)
+"Additive + auxiliary loss, lambda = 0.3 (deployed)",total,"651,588,378",100.000%,all modules
+"Additive + auxiliary loss, lambda = 0.3 (deployed)",total at inference (auxiliary head removed),"651,521,560",,auxiliary head is training-only

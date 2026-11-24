@@ -1,0 +1,9 @@
+Step,Sequences removed,Sequences remaining
+"Pooled AMP / non-AMP sequences from APD3, dbAMP 2.0, DRAMP 4.0 and the non-AMP pool","0","16852"
+"Drop duplicate (sequence, label) pairs","16","16836"
+"Drop non-canonical residues (quality control)","0","16836"
+"Drop sequences outside the 5-50 residue window","0","16836"
+"Cluster with CD-HIT-EST at 90% identity (16740 clusters formed from 16836 sequences)","0","16836"
+"Single-linkage merge of CD-HIT clusters with the MMseqs2 graph (13889 homology groups; sequences unchanged)","0","16836"
+"Drop sequences that the cross-split homology audit could not separate","5","16831"
+"Split into train / validation / test (80:10:10, cluster-intact, length-stratified)","0","13483 / 1672 / 1676"

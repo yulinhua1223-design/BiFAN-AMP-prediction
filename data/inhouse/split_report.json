@@ -1,0 +1,185 @@
+{
+  "mode": "full",
+  "protocol": {
+    "cd_hit_identity": 0.9,
+    "cd_hit_coverage": 0.8,
+    "cd_hit_word_length": 5,
+    "cd_hit_min_length_kept": 5,
+    "cluster_intact": true,
+    "homology_groups": "single-linkage merge of CD-HIT clusters with the MMseqs2 all-vs-all graph",
+    "split_strategy": "intact homology groups, stratified on (majority label x length bin)",
+    "leakage_repair": "audit-and-merge iterations until the independent cross-split audit is empty",
+    "ratios": {
+      "train": 0.8,
+      "val": 0.1,
+      "test": 0.1
+    },
+    "seed": 42,
+    "length_window": [
+      5,
+      50
+    ],
+    "length_bins": [
+      "5-9",
+      "10-19",
+      "20-29",
+      "30-39",
+      "40-50"
+    ],
+    "leakage_check": "mmseqs2 easy-search, --min-seq-id 0.9 -c 0.8 --cov-mode 0 (>=80% coverage on BOTH sequences), -s 7.5, --max-seqs 100000"
+  },
+  "n_cd_hit_clusters": 16740,
+  "n_mmseqs_pairs": 22344,
+  "n_homology_groups": 13889,
+  "n_mixed_label_groups": 4,
+  "duplicate_conflicts_dropped": 0,
+  "repair_rounds": 11,
+  "n_sequences_dropped_for_leakage": 5,
+  "total_cross_split_hits": 0,
+  "splits": {
+    "train": {
+      "n": 13483,
+      "positive": 6736,
+      "negative": 6747,
+      "mean_length": 29.904917303270786,
+      "std_length": 12.171023611556377,
+      "mean_length_amp": 23.227880047505938,
+      "mean_length_nonamp": 36.57106862309175,
+      "by_length_bin": {
+        "5-9": {
+          "total": 748,
+          "positive": 606,
+          "negative": 142
+        },
+        "10-19": {
+          "total": 2690,
+          "positive": 2480,
+          "negative": 210
+        },
+        "20-29": {
+          "total": 2555,
+          "positive": 1687,
+          "negative": 868
+        },
+        "30-39": {
+          "total": 4196,
+          "positive": 1200,
+          "negative": 2996
+        },
+        "40-50": {
+          "total": 3294,
+          "positive": 763,
+          "negative": 2531
+        }
+      },
+      "ks_length_amp_vs_nonamp": {
+        "statistic": 0.5669722304661138,
+        "p_value": 0.0
+      }
+    },
+    "val": {
+      "n": 1672,
+      "positive": 833,
+      "negative": 839,
+      "mean_length": 30.060406698564595,
+      "std_length": 12.331228060166604,
+      "mean_length_amp": 23.456182472989195,
+      "mean_length_nonamp": 36.61740166865316,
+      "by_length_bin": {
+        "5-9": {
+          "total": 94,
+          "positive": 76,
+          "negative": 18
+        },
+        "10-19": {
+          "total": 342,
+          "positive": 316,
+          "negative": 26
+        },
+        "20-29": {
+          "total": 304,
+          "positive": 196,
+          "negative": 108
+        },
+        "30-39": {
+          "total": 511,
+          "positive": 139,
+          "negative": 372
+        },
+        "40-50": {
+          "total": 421,
+          "positive": 106,
+          "negative": 315
+        }
+      },
+      "ks_length_amp_vs_nonamp": {
+        "statistic": 0.5610964290364536,
+        "p_value": 7.086229676568885e-122
+      }
+    },
+    "test": {
+      "n": 1676,
+      "positive": 836,
+      "negative": 840,
+      "mean_length": 29.932577565632457,
+      "std_length": 12.281022400555061,
+      "mean_length_amp": 23.24043062200957,
+      "mean_length_nonamp": 36.59285714285714,
+      "by_length_bin": {
+        "5-9": {
+          "total": 92,
+          "positive": 75,
+          "negative": 17
+        },
+        "10-19": {
+          "total": 335,
+          "positive": 309,
+          "negative": 26
+        },
+        "20-29": {
+          "total": 318,
+          "positive": 210,
+          "negative": 108
+        },
+        "30-39": {
+          "total": 518,
+          "positive": 144,
+          "negative": 374
+        },
+        "40-50": {
+          "total": 413,
+          "positive": 98,
+          "negative": 315
+        }
+      },
+      "ks_length_amp_vs_nonamp": {
+        "statistic": 0.5686773752563227,
+        "p_value": 1.2519825576857512e-125
+      }
+    }
+  },
+  "length_matched_test_subset": {
+    "n": 714,
+    "positive": 357,
+    "negative": 357,
+    "ks_statistic": 0.0,
+    "ks_p_value": 1.0
+  },
+  "leakage": {
+    "train_vs_val": {
+      "n_hits_at_90id_80cov": 0,
+      "max_identity": 0.0,
+      "examples": []
+    },
+    "train_vs_test": {
+      "n_hits_at_90id_80cov": 0,
+      "max_identity": 0.0,
+      "examples": []
+    },
+    "val_vs_test": {
+      "n_hits_at_90id_80cov": 0,
+      "max_identity": 0.0,
+      "examples": []
+    }
+  }
+}

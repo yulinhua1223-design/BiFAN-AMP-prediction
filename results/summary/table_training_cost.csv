@@ -1,0 +1,5 @@
+dataset,variant,n_seeds,n_params,n_trainable,n_params_esm,n_params_head,train_seconds_median,train_minutes_median,inference_seconds_median,throughput_median,peak_gpu_gib_max,epochs_median
+"genpept","add","6","651521560","651521560","651040661","480899","1048.0910145044327","17.468183575073876","8.7133868932724","265.1293925310406","18.071403980255127","8.0"
+"inhouse","add_aux0.3","6","651588378","651588378","651040661","547717","1451.8020343780518","24.19670057296753","4.021760702133179","416.7529594082416","13.341597080230713","10.0"
+"genpept","classical ML (all models/seeds)","36","","","","","7.151287078857422","0.11918811798095703","","","",""
+"inhouse","classical ML (all models/seeds)","36","","","","","10.877902865409851","0.1812983810901642","","","",""

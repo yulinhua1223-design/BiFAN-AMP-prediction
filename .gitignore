@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+venv/
+
+# Model weights and run artifacts
+models/
+runs/
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+*.bin
+
+# Generated baseline and prediction directories
+results/ml/
+results/deep/
+results/deep_preds/
+results/external/
+results/length_baseline_*.json
+outputs/
+*.npz
+environment-freeze.txt
+
+# External upstream checkout
+data/GenPept-Curated-2025/
+
+# Manuscript, figures, and archives
+*.docx
+*.pdf
+*.pptx
+*.zip
+*.tar.gz
+*.log
+
+# Editors and operating systems
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+

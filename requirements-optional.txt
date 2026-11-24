@@ -1,0 +1,4 @@
+-r requirements.txt
+
+# Needed only for the LightGBM row in the classical baseline comparison.
+lightgbm>=4.0

@@ -1,0 +1,3 @@
+corpus,seeds,seq_only_errors,hand_correct_share_pct,fused_recovers_share_pct,hand_only_errors,seq_correct_share_pct,oracle_union_ACC,fused_ACC
+"GenPept-Curated-2025","6","115.5 ± 6.8","41.6 ± 5.9","35.4 ± 3.4","681.0 ± 16.0","90.1 ± 1.3","0.9707 ± 0.0039","0.9531 ± 0.0035"
+"In-house (re-drawn)","6","98.2 ± 10.2","37.3 ± 2.9","33.0 ± 3.8","378.3 ± 15.3","83.7 ± 1.9","0.9633 ± 0.0039","0.9435 ± 0.0028"

@@ -1,0 +1,8 @@
+dataset,split,n,AMP,non-AMP,mean length,mean length AMP,mean length non-AMP,KS p (length)
+"In-house (re-drawn)","train","13483","6736","6747","29.9","23.2","36.6","0"
+"In-house (re-drawn)","val","1672","833","839","30.1","23.5","36.6","7.09e-122"
+"In-house (re-drawn)","test","1676","836","840","29.9","23.2","36.6","1.25e-125"
+"In-house (re-drawn)","cross-split homology audit (relations found)","0","-","-","-","-","-","-"
+"GenPept-Curated-2025","train","7700","3850","3850","108.5","121.7","95.3","7.38e-203"
+"GenPept-Curated-2025","val","990","495","495","108.6","121.9","95.3","1.37e-26"
+"GenPept-Curated-2025","test","2310","1155","1155","108.5","122.2","94.7","2.88e-60"

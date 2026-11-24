@@ -1,0 +1,5 @@
+dataset,predictor,protocol,threshold,ACC,MCC,AUC,AUPRC,Sn,Sp,n_test,n_unscored
+"genpept","amPEPpy v1.0 (pretrained random forest)","released weights; validation-selected threshold; held-out test split scored once","0.784375","0.5065","0.0684","0.4085","0.4513","0.0156","0.9974","2310","0"
+"genpept","Macrel v1.6.1 (released weights)","released weights; validation-selected threshold; held-out test split scored once","0.579500","0.5056","0.0623","0.3788","0.4464","0.0139","0.9974","2310","0"
+"inhouse","amPEPpy v1.0 (pretrained random forest)","released weights; validation-selected threshold; held-out test split scored once","0.782083","0.6921","0.4420","0.7342","0.7927","0.4426","0.9405","1676","0"
+"inhouse","Macrel v1.6.1 (released weights)","released weights; validation-selected threshold; held-out test split scored once","0.520000","0.8234","0.6796","0.9140","0.9310","0.6687","0.9774","1676","0"

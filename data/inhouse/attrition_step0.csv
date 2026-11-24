@@ -1,0 +1,5 @@
+step,removed,remaining
+source manuscripts pools,0,16852
+drop non-canonical residues,0,16852
+drop length outside 5-50,0,16852
+drop exact duplicate sequence+label,16,16836
